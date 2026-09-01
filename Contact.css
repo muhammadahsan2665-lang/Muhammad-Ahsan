@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #222;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #d4af37;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 38px;
+}
+
+.intro {
+    color: #ccc;
+    margin: 15px auto 30px;
+    max-width: 650px;
+}
+
+/* Flexbox */
+.contact-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.contact-form,
+.contact-info {
+    flex: 1 1 400px;
+    padding: 25px;
+    background: #222;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    padding: 13px;
+    background: #333;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+
+button {
+    padding: 13px;
+    background: #8d8364;
+    border: 0;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: white;
+}
+
+.contact-info p {
+    color: #ccc;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+iframe {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #aaa;
+}

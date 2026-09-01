@@ -1,0 +1,185 @@
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.about-section {
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.container > p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.mission {
+    padding: 25px;
+    margin-bottom: 40px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.values h2 {
+    width: 100%;
+}
+
+.value-box {
+    width: 250px;
+    padding: 25px;
+    background-color: #c25959;
+    border-radius: 10px;
+}
+
+.value-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.value-box p {
+    line-height: 1.5;
+}
+.values-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Flexbox container */
+.values-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.join-link{
+    color: #ccc;
+}
+
+/* Value cards */
+.value-card {
+    flex: 1 1 280px;
+    max-width: 350px;
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.value-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.value-card p {
+    color: #ccc;
+    line-height: 1.6;
+}
+.team-section {
+    padding: 70px 0;
+    background-color: #111;
+    color: white;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.team-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.team-card {
+    flex: 1 1 250px;
+    max-width: 280px;
+    padding: 30px;
+    background-color: #1d1d1d;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.team-info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.team-info span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.team-info p {
+    color: #ccc;
+    line-height: 1.6;
+}
+.team-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    background-color: #615a5a;
+}
+.footer {
+    background: #222;
+    color: white;
+    padding: 30px 8%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer h2 span {
+    color: #ccc;
+}
+
+.footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 15px;
+}
