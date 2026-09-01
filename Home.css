@@ -53,7 +53,10 @@ body {
     padding: 10px 18px; 
     border-radius: 5px; 
     color: white; }
-.join-btn{ color:#ccc;
+.join-btn{ color: #ccc;
+          
+          
+          
 }
 
 
@@ -171,11 +174,12 @@ section > p { max-width: 700px;
       text-align: center; }
 
 /* MOBILE */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav-bar, .about-teaser { flex-direction: column; }
-    .nav-links ul { flex-wrap: wrap; justify-content: center; }
-    
-} .btn-join{
+    .nav-links ul { flex-wrap: wrap;
+                   justify-content: center; }
+}
+    .btn-join{
     display: inline-block;
     background-color: #2a2a2a;
     color: white;
